@@ -43,7 +43,6 @@ void load_server_configuration(){
     char line[256];
     FILE* config_file = fopen("starter.config", "r");
     
-
     char* parameter;
     char* value;
     char* token;
